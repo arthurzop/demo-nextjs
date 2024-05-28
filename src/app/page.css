@@ -1,0 +1,61 @@
+main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  padding: 3vh 2vw;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-line{
+  height: 80%;
+  border: .5px red solid;
+}
+
+.logo-text-container h2{
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.decoration{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section{
+  margin: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.title{
+  font-size: 2.5em;
+}
+
+.title-line{
+  width: 500px;
+  border: solid red 3px;
+}
+
+.top-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 5vw;
+}
+
+.top-container h2{
+  font-size: 2em;
+}

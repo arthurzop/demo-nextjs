@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "/": ["./src/*"],
+      "cadastro": ["./src/app/cadastro/page.jsx"]
     }
   }
 }
