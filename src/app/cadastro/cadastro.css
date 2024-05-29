@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  display: flex;
+  padding: 3vh 2vw;
+}
+
+.end{
+    justify-content: end;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-line {
+  height: 80%;
+  border: 0.5px red solid;
+}
+
+.logo-text-container h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
